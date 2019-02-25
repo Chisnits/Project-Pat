@@ -5,7 +5,7 @@ export const getInstaData = (params) => dispatch => {
         .then((data) => { 
             dispatch({
                 type: 'INSTA_DATA',
-                payload: data.data
+                payload: data.data.data
             }) 
         });
    }
