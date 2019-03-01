@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getInstaData } from '../../actions/SimpleAction';
 import InstaContent from './InstaContent';
-import './User.scss';
+import './User.css';
 class User extends Component {
   constructor(props){
     super(props);
 
     this.state = {
-      instaData: []
+      // instaData: []
     }
   }
   
@@ -19,7 +19,7 @@ componentDidMount(){
  render() {
   return (
    <div className="User">
-   <InstaContent content={this.props.simpleReducer.result ? this.props.simpleReducer.result : [] } />
+      <InstaContent content={this.props.simpleReducer.result ? this.props.simpleReducer.result : [] } />
    </div>
   );
  }

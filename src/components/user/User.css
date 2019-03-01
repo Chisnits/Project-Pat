@@ -1,0 +1,22 @@
+.instagram__content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.instagram__content-container h1, h3 {
+    margin: 0;
+}
+.instagram__profile-picture {
+    border-radius: 50%;
+}
+.instagram__image-wrapper {
+
+}
+.instagram__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
